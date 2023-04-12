@@ -1,0 +1,40 @@
+body{
+    background: linear-gradient(to left, #1ce811,#71a7ed, #f64fe5);
+
+}
+.main-heading{
+    text-align: center;
+    margin: 10px;
+}
+table.box{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+input[type="button"]{
+    color: #fff;
+    cursor: pointer;
+    background-color: #000;
+    font-size: 2em;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 100%;
+    margin: 10px 60px 10px 0px;
+}
+
+input[type="text"]{
+    color: #000;
+    background: #666;
+    border: 1px solid #ddd;
+    padding: 20px;
+    font-size: 2em;
+    width: 100%;
+}
+#clear{
+    background: darkorchid;
+    border: 1px solid #c471ed;
+}
